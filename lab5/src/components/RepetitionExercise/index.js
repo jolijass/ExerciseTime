@@ -13,11 +13,13 @@ export default function RepetitionExercise() {
         return (
             <div>
                 <h1>{name}</h1>
-                <p>Welcome to the Repetition Exercise!</p>
-                <p>{count}</p>
-                <button  onClick={countPlus}></button>
+                <p>Welcome to Push-Ups!</p>
+                <p id="count">{count}</p>
+                <button  onClick={countPlus}>Add Rep</button>
                 <button onClick={countReset}>Reset</button>
+                <div id="mainmenu">
                     <Link to="/">Main Menu</Link>
+                </div>
             </div>
         )
 }

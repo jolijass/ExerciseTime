@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 export default function Nucleus({works}) {
   return (
     <div>
-      <h1>Exercise Time</h1>
-      <p>Choose an exercise</p>
+      <h1>EXERCISE TIME</h1>
+      <p>Let's choose an exercise!</p>
       <ul>
         {works.map(workout => (
           <li key={workout.name}>

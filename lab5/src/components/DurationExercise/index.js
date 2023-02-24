@@ -39,12 +39,14 @@ export default function DurationExercise() {
     return (
         <div>
             <h1>{name}</h1>
-            <p>Welcome to the Duration Exercise!</p>
-            <p>Duration: {forTime(time)}</p>
+            <p>Welcome to Running!</p>
+            <p id="run">Duration: {forTime(time)}</p>
             <button onClick={begTimer}>Start</button>
             <button onClick={endTimer}>Stop</button>
             <button onClick={repTimer}>Reset</button>
+            <div id="mainmenu">
                 <Link to="/">Main Menu</Link>
+            </div>
         </div>
     )
 }
